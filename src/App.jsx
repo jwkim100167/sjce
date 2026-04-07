@@ -6,7 +6,7 @@ import WorldCupPredict from './components/WorldCupPredict';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/sjce">
       <Routes>
         <Route path="/"                        element={<Home />} />
         <Route path="/world-cup-predict"       element={<WorldCupLanding />} />
