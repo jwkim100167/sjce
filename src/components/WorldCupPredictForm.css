@@ -269,6 +269,7 @@
   margin-right: 2px;
 }
 .wc-team-name { font-size: 0.65rem; font-weight: 600; text-align: center; line-height: 1.2; }
+.wc-team-name-sm { font-size: 0.52rem; }
 .wc-team-rank-badge {
   font-size: 0.6rem;
   font-weight: 800;

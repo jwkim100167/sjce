@@ -163,7 +163,7 @@ export default function WorldCupPredictForm() {
 
         {/* ── 학번 ── */}
         <section className="wc-form-section">
-          <label className="wc-form-label">학번</label>
+          <label className="wc-form-label">학번 <span className="wc-form-hint">(ex: 20201234)</span></label>
           <input className="wc-form-input" type="text" placeholder="예) 20201234"
             value={studentId} onChange={(e) => setStudentId(e.target.value)} maxLength={20} />
         </section>
@@ -217,7 +217,7 @@ export default function WorldCupPredictForm() {
                       className={`wc-team-btn ${selected ? 'selected' : ''} ${isMaxed ? 'maxed' : ''}`}
                       onClick={() => handlePickTeam(t.id)} disabled={isMaxed}>
                       <img src={t.flagUrl} alt={t.name} className="wc-team-flag-img" />
-                      <span className="wc-team-name">{t.name}</span>
+                      <span className={`wc-team-name ${t.name.length >= 6 ? 'wc-team-name-sm' : ''}`}>{t.name}</span>
                       {selected && <span className="wc-team-rank-badge">{RANK_SHORT[pickIdx]}</span>}
                     </button>
                   );

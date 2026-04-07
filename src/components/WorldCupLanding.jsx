@@ -18,22 +18,6 @@ export default function WorldCupLanding() {
 
         <div className="wc-prize-banner">
           <div className="wc-prize-total">💰 총 상금 <b>10만원</b></div>
-          <div className="wc-prize-items">
-            <div className="wc-prize-item">
-              <span className="wc-prize-medal">🥇</span>
-              <span className="wc-prize-amount">5만원</span>
-            </div>
-            <div className="wc-prize-divider" />
-            <div className="wc-prize-item">
-              <span className="wc-prize-medal">🥈</span>
-              <span className="wc-prize-amount">3만원</span>
-            </div>
-            <div className="wc-prize-divider" />
-            <div className="wc-prize-item">
-              <span className="wc-prize-medal">🥉</span>
-              <span className="wc-prize-amount">2만원</span>
-            </div>
-          </div>
         </div>
 
         <p className="wc-landing-question">예측에 참여하셨나요?</p>
@@ -48,15 +32,8 @@ export default function WorldCupLanding() {
           <button className="wc-choice-card wc-choice-yes" onClick={() => navigate('/world-cup-predict/result')}>
             <span className="wc-choice-emoji">🏆</span>
             <span className="wc-choice-title">예측했어요</span>
-            <span className="wc-choice-desc">점수판 확인하기</span>
+            <span className="wc-choice-desc">참가자 목록 확인하기</span>
           </button>
-        </div>
-
-        <div className="wc-landing-rules">
-          <p>🥇 1위 정확히 맞춤 <b>50점</b></p>
-          <p>🥈 2위 정확히 맞춤 <b>30점</b></p>
-          <p>🥉 3위 정확히 맞춤 <b>20점</b></p>
-          <p>🟡 팀은 맞고 순위 틀림 <b>10점</b></p>
         </div>
       </div>
     </div>

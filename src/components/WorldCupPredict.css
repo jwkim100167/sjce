@@ -4,6 +4,7 @@
   color: white;
   font-family: 'Segoe UI', sans-serif;
   padding: 0 0 60px;
+  overscroll-behavior: none;
 }
 
 .wc-result-container {
@@ -177,6 +178,13 @@
   transition: background 0.2s;
 }
 .wc-show-more-btn:hover { background: rgba(255, 255, 255, 0.1); }
+
+/* ─── 반응형 ─── */
+@media (max-width: 480px) {
+  .wc-list-cards {
+    grid-template-columns: 1fr;
+  }
+}
 
 /* ─── 채점 기준 ─── */
 .wc-rules-list {
