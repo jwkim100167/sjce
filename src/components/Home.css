@@ -1,0 +1,113 @@
+.sjce-home {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.sjce-home-container {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ─── 헤더 ─── */
+.sjce-home-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sjce-home-emblem {
+  width: 100px;
+  height: auto;
+  margin-bottom: 14px;
+  filter: brightness(0) invert(1);
+  opacity: 0.92;
+}
+
+.sjce-home-univ {
+  font-size: 0.9rem;
+  opacity: 0.6;
+  margin: 0 0 6px;
+  letter-spacing: 0.02em;
+}
+
+.sjce-home-header h1 {
+  font-size: 2.6rem;
+  font-weight: 900;
+  margin: 0;
+  letter-spacing: 0.06em;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* ─── 서비스 카드 ─── */
+.sjce-service-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 40px;
+}
+
+.sjce-service-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  padding: 20px 20px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.07);
+  color: white;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(8px);
+}
+
+.sjce-service-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(250, 204, 21, 0.45);
+  background: rgba(250, 204, 21, 0.08);
+  box-shadow: 0 8px 24px rgba(250, 204, 21, 0.12);
+}
+
+.sjce-card-icon {
+  font-size: 2.2rem;
+  flex-shrink: 0;
+}
+
+.sjce-card-body {
+  flex: 1;
+}
+
+.sjce-card-body h2 {
+  font-size: 1.05rem;
+  font-weight: 800;
+  margin: 0 0 4px;
+  line-height: 1.35;
+}
+
+.sjce-card-body p {
+  font-size: 0.8rem;
+  opacity: 0.55;
+  margin: 0;
+}
+
+.sjce-card-arrow {
+  font-size: 1.2rem;
+  opacity: 0.5;
+  flex-shrink: 0;
+}
+
+/* ─── 푸터 ─── */
+.sjce-home-footer {
+  font-size: 0.78rem;
+  opacity: 0.3;
+}
