@@ -108,7 +108,7 @@ export default function WorldCupPredict() {
             <li>🥇 1위 팀을 정확히 맞춤 <b>50점</b></li>
             <li>🥈 2위 팀을 정확히 맞춤 <b>30점</b></li>
             <li>🥉 3위 팀을 정확히 맞춤 <b>20점</b></li>
-            <li>🟡 팀은 맞고 순위가 틀림 <b>10점</b></li>
+            <li>🟡 팀은 맞고 순위 틀림 각 <b>10점</b></li>
           </ul>
         </section>
 
